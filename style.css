@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: bisque;
+    height: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(137, 132, 122);
+    flex-wrap: wrap;
+}
+
+.text_container{
+   margin-left: 2%;
+   text-align: center;
+   
+}
+
+.actionitem{
+    margin-right: 4%;
+}
+
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+    
+}
+
+.nav_bar a {
+text-decoration: none;
+color: darkslategray;
+font-size: 14px;
+
+}
+
+.actionitem{
+   display: flex;
+   min-width: 10%;
+   justify-content: space-evenly;
+   
+}
+
+.nav_bar a:hover{
+    border-bottom: 2px solid hotpink;
+}
+
+.sub_heading{
+    margin-top: 1%;
+    margin-left: 5%;
+    color: rgb(73, 87, 101);
+    font-size: 2.5rem;
+}
+
+.p1{
+    max-width: 35%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: medium;
+}
+
+.p2{
+    max-width: 35%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: medium;
+}
+
+.p3{
+    max-width: 35%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: medium;
+}
+
+.p4{
+    max-width: 35%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: medium;
+}
+
+.p5{
+    max-width: 35%;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: medium;
+    margin-bottom: 3%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   background-color: rgb(33, 37, 41);
+    color: #a9a9a9;
+}
+
+.logocontainer{
+    max-width: 20%;
+    margin-left: 5%;
+    margin-bottom: 4px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-decoration: none;
+   
+}
+
+.contact_us{
+    margin-right: 3%;
+    max-width: 20%;
+}
+
+.anker{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 2px;
+    color: darkgrey;
+}
+
+.links a{
+    text-decoration: none;
+    margin: 2px;
+    color: #a9a9a9;
+}
+
+.dhruv{
+    margin-top: 10px;
+}
